@@ -22,7 +22,7 @@ def merge_data(keys, data)
   set = {}
   i = 0
   while i < keys.size do
-    set << {keys[i], data[i]}
+    set[keys[i]] = data[i]
     i += 1
   end
 
