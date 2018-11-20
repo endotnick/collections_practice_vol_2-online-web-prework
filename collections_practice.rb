@@ -7,7 +7,7 @@ def contain_a(collection)
 end
 
 def first_wa(collection)
-  collection.find { |el| el.start_with?('wa') }
+  collection.find { |el| el.to_s.start_with?('wa') }
 end
 
 def count_elements(collection)
