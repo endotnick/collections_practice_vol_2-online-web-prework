@@ -23,7 +23,7 @@ def merge_data(keys, data)
   i = 0
   while i < keys.size do
     entry = keys[i]
-    puts data[i]
+    puts data[i][0]
     set << entry
     i += 1
   end
