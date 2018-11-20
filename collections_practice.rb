@@ -15,7 +15,7 @@ def remove_non_strings(collection)
 end
 
 def count_elements(collection)
-
+  collection.size
 end
 
 def merge_data(collection)
