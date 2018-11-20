@@ -3,7 +3,7 @@ def begins_with_r(collection)
 end
 
 def contain_a(collection)
-  collection.select { |el| el.contain?('a') }
+  collection.select { |el| el.include?('a') }
 end
 
 def first_wa(collection)
