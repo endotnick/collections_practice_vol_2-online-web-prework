@@ -23,6 +23,7 @@ def merge_data(keys, data)
   i = 0
   while i < keys.size do
     entry = keys[i]
+    entry << data[i].entry[:first_name]
     set << entry
     i += 1
   end
