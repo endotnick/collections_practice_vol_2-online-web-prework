@@ -10,17 +10,22 @@ def first_wa(collection)
   collection.find { |el| el.to_s.start_with?('wa') }
 end
 
-def count_elements(collection)
+def remove_non_strings(collection)
+  collection.select { |el| el.is_a?(String)}
 end
 
-def remove_non_strings(collection)
+def count_elements(collection)
+  
 end
 
 def merge_data(collection)
+  
 end
 
 def find_cool(collection)
+  
 end
 
 def organize_schools(collection)
+  
 end
