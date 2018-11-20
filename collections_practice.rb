@@ -1,24 +1,24 @@
-def begins_with_r
+def begins_with_r(collection)
 end
 
-def contain_a
+def contain_a(collection)
 end
 
-def first_wa
+def first_wa(collection)
 end
 
-def count_elements
+def count_elements(collection)
 end
 
-def remove_non_strings
+def remove_non_strings(collection)
 end
 
-def merge_data
+def merge_data(collection)
 end
 
-def find_cool
+def find_cool(collection)
 end
 
-def organize_schools
+def organize_schools(collection)
 end
 
