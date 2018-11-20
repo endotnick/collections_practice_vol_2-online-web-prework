@@ -11,21 +11,21 @@ def first_wa(collection)
 end
 
 def remove_non_strings(collection)
-  collection.select { |el| el.is_a?(String)}
+  collection.select { |el| el.is_a?(String) }
 end
 
 def count_elements(collection)
-  
+
 end
 
 def merge_data(collection)
-  
+
 end
 
 def find_cool(collection)
-  
+
 end
 
 def organize_schools(collection)
-  
+
 end
