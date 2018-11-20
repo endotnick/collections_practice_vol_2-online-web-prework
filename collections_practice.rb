@@ -1,4 +1,5 @@
 def begins_with_r(collection)
+  collection.any? { |el| el.downcase.split[0] != 'r'}
 end
 
 def contain_a(collection)
@@ -21,4 +22,3 @@ end
 
 def organize_schools(collection)
 end
-
