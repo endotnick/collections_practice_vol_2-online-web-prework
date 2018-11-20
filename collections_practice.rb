@@ -1,6 +1,6 @@
 def begins_with_r(collection)
   collection.any? do |el|
-    puts el.downcase.split[0]
+    puts el.downcase.split()[0]
     el.downcase.split[0] == 'r'
   end
 end
