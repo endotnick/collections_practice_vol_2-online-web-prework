@@ -19,10 +19,12 @@ def count_elements(collection)
 end
 
 def merge_data(keys, data)
-  set = {}
+  set = []
   i = 0
   while i < keys.size do
-    set[keys[i]] = data[i]
+    entry = keys[i]
+    entry << data[keys[i]]
+    set << entry
     i += 1
   end
   set
