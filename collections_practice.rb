@@ -25,7 +25,7 @@ def merge_data(keys, data)
     set[keys[i]] = data[i]
     i += 1
   end
-
+  set
 end
 
 def find_cool(collection)
