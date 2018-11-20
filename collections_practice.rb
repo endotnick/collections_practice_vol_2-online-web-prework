@@ -1,8 +1,8 @@
 def begins_with_r(collection)
-  collection.all? { |el|
+  collection.any? do |el|
     puts el
     el.downcase.split[0] == 'r'
-  }
+  end
 end
 
 def contain_a(collection)
