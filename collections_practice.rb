@@ -1,5 +1,5 @@
 def begins_with_r(collection)
-  collection.any? do |el|
+  collection.all? do |el|
     puts el.downcase.split()[0]
     el.start_with?('r')
   end
